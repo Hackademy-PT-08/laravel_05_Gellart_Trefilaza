@@ -1,0 +1,113 @@
+/* .principal-title {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+#hero {
+    height: 600px;
+    background-image: url("https://wallpapers.com/images/hd/minimalist-technology-1680-x-1050-wallpaper-5kabc7xy9g0n48vx.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#hero .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* #hero .blur {
+    background-color: rgba(red, green, blue, alpha);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://cdn.wallpapersafari.com/36/58/8cNmGp.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0.5rem 1.5rem;
+}
+
+a,
+button {
+    color: white;
+}
+
+.image-clickable {
+    margin-right: auto;
+}
+
+.logo {
+    height: 4.2rem;
+    margin-right: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 1.25rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    transition: all 0.5s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: rgba(0, 173, 181, 0.8);
+}
+
+button {
+    background: #04bd70;
+    cursor: pointer;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    transition: all 0.5s ease 0s;
+    margin-left: 20px;
+}
+
+button:hover {
+    background: rgba(0, 173, 181, 0.8);
+}
+
+
