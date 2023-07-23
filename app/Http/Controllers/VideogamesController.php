@@ -31,9 +31,9 @@ class VideogamesController extends Controller
     public function show($id){
         foreach ($this->videogames as $videogame) {
             if ($id == $videogame['id']) {
-                return view('videogames', ['videogames' => $videogame]);
+                return view('videogames_details', ['videogames' => $videogame]);
             }
         }
     }
-    
+
 }

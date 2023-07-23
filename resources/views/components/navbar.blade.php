@@ -7,5 +7,5 @@
             <li><a href="#">About</a></li>
         </ul>
     </nav>
-    <a href="#"><button>Contact Us</button></a>
+    <a href="{{route('contact_us')}}"><button>Contact Us</button></a>
 </header>

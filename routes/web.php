@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\VideogamesController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,5 +16,11 @@ use App\Http\Controllers\VideogamesController;
 */
 
 Route::get('/', [VideogamesController::class, 'home'])->name('home');
+
+// videogames
 Route::get('/videogames', [VideogamesController::class, 'index'])->name('videogames');
 Route::get('/videogames/{id}', [VideogamesController::class, 'show'])->name('videogames_details');
+
+//mail
+Route::get('/contact_us', [ContactController::class, 'contact'])->name('contact_us');
+Route::post('/contact_us/submit', [ContactController::class, 'contactSubmit'])->name('contact-submit');

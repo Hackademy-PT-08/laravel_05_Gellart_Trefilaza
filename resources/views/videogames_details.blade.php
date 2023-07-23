@@ -2,7 +2,7 @@
     <x-navbar />
 
     <x-hero>
-        uvbiun
+        Game details
     </x-hero>
 
 
